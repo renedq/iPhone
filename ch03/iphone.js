@@ -29,7 +29,7 @@ function loadPage(url) {
     }
     $('#container a').click(function(e){
       var url = e.target.href;
-      if (url.match(/localhost:8000/)){
+      if (url.match(/wud-rduquesn01:8000/)){
         e.preventDefault();
         loadPage(url);
       }
