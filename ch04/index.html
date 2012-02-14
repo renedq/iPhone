@@ -16,6 +16,7 @@
     <div id="home">
       <div class="toolbar">
         <h1>Kilo</h1>
+        <a class="button flip" href="#settings">Settings</a>
       </div>
       <ul class="edgetoedge">
         <li class="arrow"><a href="#about">About</a></li>
@@ -69,6 +70,20 @@
           <li><input type="text" placeholder="Food" name="food" id="food" autocapitalize="off" autocorrect="off" autocomplete="off"/></li>
           <li><input type="text" placeholder="Calories" name="calories" id="calories" autocapitalize="off" autocorrect="off" autocomplete="off"/></li>
           <li><input type="submit" class="submit" name="action" value="save"></li>
+        </ul>
+      </form>
+    </div>
+    <div id="settings">
+      <div class="toolbar">
+        <h1>Settings</h1>
+        <a class="button cancel" href="#">Cancel</a>
+      </div>
+      <form method="post">
+        <ul>
+          <li><input placeholder="Age" type="text" name="age" id="age"/></li>
+          <li><input placeholder="Weight" type="text" name="weight" id="weight"/></li>
+          <li><input placeholder="Budget" type="text" name="budget" id="budget"/></li>
+          <li><input type="submit" class="submit" name="action" value="Save"/></li>
         </ul>
       </form>
     </div>

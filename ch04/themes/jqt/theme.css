@@ -255,6 +255,9 @@ ul li input[type="text"], ul li input[type="password"], ul li textarea, ul li se
     width: 100%;
     -webkit-appearance: textarea;
 }
+/*ul li input[type="submit"]{
+    color: #AAA;
+}*/
 ul li textarea {
     height: 120px;
     padding: 0;
